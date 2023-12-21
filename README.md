@@ -1,4 +1,39 @@
 # NETFLIX MOVIES AND TV SHOWS CLUSTERING
 
-**Project Summary:**
-Analyzing a Netflix dataset encompassing TV shows and movies up to 2019, sourced from the Flixable search engine. Notable findings include a threefold increase in TV shows since 2010 and a decrease of over 2,000 movie titles during the same period. The project involves extensive data visualization to extract key insights and preprocess textual data for clustering. The ultimate goal is to develop a recommender system utilizing cosine similarity, recommending the top 5 movies based on clustering results.
+## Project Summary
+Unsupervised learning is used in this data science project to analyze a dataset of 10,000+ Netflix films that includes information on the titles, release year, genre, director, cast, and rating. Data cleaning and visualization using tools like scatter plots and histograms are the first steps in the process. Similar titles are grouped using clustering techniques like k-means and hierarchical clustering after preprocessing processes like scaling and dividing into training and testing sets. Through the use of measurements like the elbow technique, optimal cluster numbers are identified. Data structures are easier to visualize when using dimensionality reduction techniques like PCA and t-SNE. Meaningful clusters are found using evaluation criteria like silhouette score. In the end, these data help Netflix make better recommendations and improve the viewing experience.
+
+## Github Link
+https://github.com/umerulla/Unsupervised-Capstone-Project
+
+## Problem Statement
+This dataset consists of tv shows and movies available on Netflix as of 2019. The dataset is collected from Flixable which is a third-party Netflix search engine. In 2018, they released an interesting report which shows that the number of TV shows on Netflix has nearly tripled since 2010. The streaming service's number of movies has decreased by more than 2,000 titles since 2010, while its number of TV shows has nearly tripled. It will be interesting to explore what all other insights can be obtained from the same dataset.
+
+## Conclusion
+--> This dataset contain 7787 rows and 12 columns.There was'nt any duplicates in dataset, and maximum number of null value was present in director column followed by cast.
+
+--> Only 31% of the content on Netflix is television, with movies accounting for 69% of the total.
+
+--> Raul Campos, jan suter was most famous directors among all.
+
+--> Anupam Kher is most popular actor on Netflix, followed by Takahiro Sakurai.
+
+--> By the end of of the current year and the beginning of the next, the majority of Netflix's content was released.
+
+--> International Movies and Dramas are topmost Genres on Netflix.
+
+--> Most of the content on Netflix is TV-MA(Mature Audience) rated.
+
+--> United states has the highest number of content on the netflix, followed by India.
+
+--> Most of the movies have duration of 90 mimutes.
+
+--> In title column we got 'Love', 'Man', 'World', 'Story', 'Life' seems very common word.
+
+--> Using PCA dimensionality reduction technique we have rediced components to 4000
+
+--> We have implemented 4 clustering model to divide the dataset in clusters.
+
+--> K-means clustering shows that '4' will be optimum no of clusters with the silhoutte score of 0.0057.
+
+--> We have built cosine based recommender system using cosine_similarity, which was wroking nicely.
